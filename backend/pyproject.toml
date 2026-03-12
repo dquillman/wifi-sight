@@ -1,0 +1,14 @@
+[project]
+name = "wifi-sight"
+version = "0.1.0"
+description = "WiFi-based human presence detection"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.34",
+    "websockets>=14.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"

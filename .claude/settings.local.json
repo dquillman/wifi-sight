@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python --version 2>&1; pip --version 2>&1)",
+      "Bash(node --version 2>&1; npm --version 2>&1)",
+      "Bash(netsh wlan:*)",
+      "Bash(cd G:/users/daveq/wifi-sight/backend && python -m venv .venv && .venv/Scripts/pip install -r requirements.txt)",
+      "Bash(cd G:/users/daveq/wifi-sight/frontend && npm install)",
+      "Bash(where python:*)",
+      "Bash(G:/Python311/python.exe --version)",
+      "Bash(cd G:/users/daveq/wifi-sight/backend && G:/Python311/python.exe -m venv .venv && .venv/Scripts/pip.exe install -r requirements.txt)",
+      "Bash(cd G:/users/daveq/wifi-sight/backend && .venv/Scripts/python.exe -c \"from main import app; print\\('Backend imports OK'\\)\")",
+      "Bash(cd G:/users/daveq/wifi-sight/backend && .venv/Scripts/python.exe -c \"from main import app; print\\('Backend OK'\\)\")",
+      "Bash(cd G:/users/daveq/wifi-sight/frontend && npx vite build 2>&1 | tail -20)",
+      "Bash(cd G:/users/daveq/wifi-sight/frontend && npx vite build 2>&1 | tail -5)"
+    ]
+  }
+}
