@@ -43,9 +43,13 @@ export default function App() {
             letterSpacing: "0.15em",
             color: "#22c55e",
             textTransform: "uppercase",
+            display: "flex",
+            alignItems: "center",
+            gap: "0.75rem",
           }}
         >
-          ◉ WiFi Sight
+          <img src="/favicon.svg" alt="" width={32} height={32} style={{ borderRadius: 6 }} />
+          WiFi Sight
         </h1>
       </div>
 
